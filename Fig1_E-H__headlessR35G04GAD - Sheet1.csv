@@ -1,0 +1,19 @@
+Condition,Leg Extended,Normal,Total,% Extended,% Normal
+Continuous ON Dusted,7,2,9,77.80%,22.20%
+Continuous ON Undusted,4,1,5,80%,20%
+,% Extended,% Normal,,R35G04>CHRIMSON,
+Activation Dusted,77.80%,22.20%,,,
+Activation Undusted,80%,20%,,,
+,,,,,
+Condition,% flexed,%Normal,,R35G04>TNT,
+Silencing Dusted,100,0,,,
+Silencing Undusted,100,0,,,
+,,,,,
+Condition,Leg flexed,Normal,Total,% Extended,% Normal
+Silencing Dusted,13,0,13,100,0
+Silencing Undusted,9,0,9,100,0
+,,,,,
+,,,,,
+,% leg flexed,% Normal,,,
+Silencing Dusted,100.00%,0.00%,,,
+Silencing Undusted,100%,0%,,,
