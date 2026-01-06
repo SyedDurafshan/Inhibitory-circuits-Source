@@ -1,17 +1,34 @@
 # Inhibitory-circuits-Source
-Materials used  for "Syed Durafshan Sakeena, Ravbar Primoz, Simpson Julie H (2025) Inhibitory circuits control leg movements during Drosophila grooming eLife 14:RP106446"
+This repository contains materials used for the study:
+Syed Durafshan Sakeena, Ravbar Primoz, Simpson Julie H. (2025)
+Inhibitory circuits control leg movements during _Drosophila_ grooming
+eLife 14: RP106446
+https://doi.org/10.7554/eLife.106446.2
 
-The contents:
-(i) data analysis code
-(ii) source data
+Contents
 
-** Behavior data analysis code: MS_data_analysis_eLife_rev_GitHub_1p2.ipynb
+**1. Connectivity analysis code:**
+EM_connectivity_matrix_13A-muscle_synergies-Syed-eLife.ipynb (Syed)
+   - Computes cosine similarity
+   - Plots connectivity matrices
 
-This code is used to analyze segmented behavioral data. The UMAPs can be plotted and colored according to the behavioral features or cluster (class) membership.
+**2. Behavioral data analysis code:**
+MS_data_analysis_eLife_rev_GitHub_1p2.ipynb (Syed & Ravbar)
 
-The segments (individual leg movements) are described by various features and classified in several types of behavior (such as head cleaning or front leg cleaning). *** LMM fitting is performed in the “ --- LMM Main Script ---” cell. *** The code can be used to plot comparisons between groups for feature-class pairs. Variabilities of feature-class pairs can also be compared in the second part of the code file.
+- Analysis of segmented behavioral data
+- UMAP visualization colored by behavioral features or cluster (class) membership.
+- Segments (individual leg movements) are described by kinematic features and classified into behavioral types (e.g., head grooming, front leg grooming)
 
-Source data for connectome and behavior analysis in .csv files.
-Also see Source data and code for the computational model Figures 6, and 7 available at: https://github.com/PrimozRavbar/Inhibitory-circuits
+Linear mixed-effects model (LMM) fitting is performed in the section labeled
+“--- LMM Main Script ---”
 
-Link: https://doi.org/10.7554/eLife.106446.2
+Includes tools for:
+- Group comparisons for feature–class pairs
+- Variability analysis of feature–class pairs
+
+**3. Source data**
+CSV files for connectome and behavioral analyses
+
+**Additional related resources**
+Source data and code for the **computational model** (Figures 6 and 7) are available at:
+https://github.com/PrimozRavbar/Inhibitory-circuits
