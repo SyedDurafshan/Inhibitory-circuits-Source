@@ -13,3 +13,5 @@ The segments (individual leg movements) are described by various features and cl
 
 Source data for connectome and behavior analysis in .csv files.
 Also see Source data and code for the computational model Figures 6, and 7 available at: https://github.com/PrimozRavbar/Inhibitory-circuits
+
+Link: https://doi.org/10.7554/eLife.106446.2
